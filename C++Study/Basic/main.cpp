@@ -1,11 +1,11 @@
 #include <iostream>
+using namespace std;
 
-// Declare the functions defined in other files
 void InputAndOperators(void);
 void OutputAndVariables(void);
 
 int main() {
-    std::cout << "Game Engine Starting...\n";
+    cout << "Running main...\n";
 
     // OutputAndVariables();
     InputAndOperators();
