@@ -15,10 +15,10 @@ void OutputAndVariables(void)
 	bool bool_var;		// 1 byte: T/F
 
 	cout << "Hello World!\n";
-	cout << "Have a good day!" << endl;
-	cout << 3 << endl;
-	cout << 3 + 5 << endl;
-	cout << 5 * 2 << "\n";
+	cout << "Have a good day!" << '\n';
+	cout << 3 << '\n';
+	cout << 3 + 5 << '\n';
+	cout << 5 * 2 << '\n';
 
 	c = 'A';			// need to use '' not ""
 	si = 32768;
@@ -29,17 +29,17 @@ void OutputAndVariables(void)
 	string_var = "C++!";
 	bool_var = true;
 
-	cout << c << endl;
-	cout << si << endl;	// Display -32768 because it's more than the maximum value of short int
-	cout << i << endl;
-	cout << ui << endl;
+	cout << c << '\n';
+	cout << si << '\n';	// Display -32768 because it's more than the maximum value of short int
+	cout << i << '\n';
+	cout << ui << '\n';
 
 	cout << setprecision(17);
-	cout << f << endl;	// Too much to hold ! Weird output displayed !
-	cout << d << endl;  // Too much to hold ! Weird output displayed !
+	cout << f << '\n';	// Too much to hold ! Weird output displayed !
+	cout << d << '\n';  // Too much to hold ! Weird output displayed !
 
-	cout << string_var << endl;
-	cout << bool_var << endl;
+	cout << string_var << '\n';
+	cout << bool_var << '\n';
 
 	int sum;
 
@@ -53,15 +53,15 @@ void OutputAndVariables(void)
 
 	area = width * length;
 
-	cout << "Width : " << width << endl;
-	cout << "Length: " << length << endl;
-	cout << "Area  : " << area << endl;
+	cout << "Width : " << width << '\n';
+	cout << "Length: " << length << '\n';
+	cout << "Area  : " << area << '\n';
 
 	float f1 = 35e3;	// Scientific notation is okay to use
 	double d1 = 12E4;
 
-	cout << f1 << endl;
-	cout << d1 << endl;
+	cout << f1 << '\n';
+	cout << d1 << '\n';
 
 	// ASCII reference
 

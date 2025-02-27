@@ -25,33 +25,46 @@ void InputAndOperators(void)
 	f_quotient = x / (float)y;	// To return quotient with decimals, we need to cast at least one of the variable type be double or float
 	modulus = x % y;
 
-	cout << "The sum of both number is: " << sum << endl;
-	cout << "The difference of both number is: " << diff << endl;
-	cout << "The product of both number is: " << product << endl;
-	cout << "The quotient of both number is: " << quotient << endl;
-	cout << "The quotient of both number is: " << f_quotient << endl;
-	cout << "The modulus of both number is: " << modulus << endl;
+	cout << "The sum of both number is: " << sum << '\n';
+	cout << "The difference of both number is: " << diff << '\n';
+	cout << "The product of both number is: " << product << '\n';
+	cout << "The quotient of both number is: " << quotient << '\n';
+	cout << "The quotient of both number is: " << f_quotient << '\n';
+	cout << "The modulus of both number is: " << modulus << '\n';
 
-	cout << endl << "Incrementing both numbers...\n\n";
+	cout << '\n' << "Incrementing both numbers...\n\n";
 	++x;
 	++y;
-	cout << "Now x = " << x << " and y = " << y << "." << endl;
+	cout << "Now x = " << x << " and y = " << y << "." << '\n';
 
-	cout << endl << "Decrementing both numbers...\n\n";
+	cout << '\n' << "Decrementing both numbers...\n\n";
 	--x;
 	--y;
 	cout << "Now x = " << x << " and y = " << y << "." << "\n\n";
 
 	// Assignment operators
 
-	cout << "x = " << x << endl;
+	cout << "x = " << x << '\n';
 
 	x += 5; // This is equivilent to x = x + 5;
-	cout << "x = " << x << endl;
+	cout << "x = " << x << '\n';
 	x -= 3;
-	cout << "x = " << x << endl;
+	cout << "x = " << x << '\n';
 	x *= 7;
-	cout << "x = " << x << endl;
+	cout << "x = " << x << '\n';
 	x /= 2;
-	cout << "x = " << x << endl;
+	cout << "x = " << x << '\n';
+
+	// Comparison operators
+
+	cout << (x > y) << '\n';
+	cout << (x < y) << '\n';
+	cout << (x == y) << '\n';
+	cout << (x != y) << '\n';
+
+	// Logical operators
+
+	cout << (x > y && x < y) << '\n';
+	cout << (x > y || x < y) << '\n';
+	cout << !(x > y || x < y) << '\n';
 }
