@@ -4,6 +4,7 @@ using namespace std;
 void InputAndOperators(void);
 void OutputAndVariables(void);
 void StringAndMath(void);
+void ConditionsAndLoops(void);
 
 int main()
 {
@@ -11,7 +12,8 @@ int main()
 
     // OutputAndVariables();
     // InputAndOperators();
-    StringAndMath();
+    // StringAndMath();
+    ConditionsAndLoops();
 
     return 0;
 }

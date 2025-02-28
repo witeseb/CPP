@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConditionsAndLoops.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OutputsAndVariables.cpp" />
     <ClCompile Include="InputAndOperators.cpp" />

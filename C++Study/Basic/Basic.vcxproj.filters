@@ -27,5 +27,8 @@
     <ClCompile Include="StringAndMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConditionsAndLoops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
